@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Restaurant</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="shortcut icon" href="/img/favicon-1.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- ========= Header Start ========= -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><span class="text-danger">Res</span>taurant</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#WELCOME">WELCOME</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#about">ABOUT
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#pricing">PRICING
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#beer">BEER
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#bread">BREAD
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#featured">FEATURED
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Reserve">RESERVATION
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">CONTACT
+            </a>
+          </li>
+
+
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========= Header End ========= -->
+
+
+  <!-- =========  Start ========= -->
+  <div id="top" class="starter_container d-flex">
+    <div class="follow_container" id="WELCOME">
+      <div class="col-md-6 col-md-offset-3">
+        <h2 class="top-title" data-aos="fade-right"> Restaurant</h2>
+        <h2 class="second-title" data-aos="fade-right">" Best in the city "</h2>
+        <hr>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========  End ========= -->
+
+  <!-- ========= About Us Start ========= -->
+  <section id="story" class="description_content">
+    <div class="container" id="about">
+      <div class="row align-items-center" data-aos="fade-down-right">
+        <div class="col-md-6">
+          <h1 class="">About us</h1>
+          <div class="fa fa-cutlery fa-2x mb-3"></div>
+          <p class="desc-text">
+            Restaurant is a place for simplicity. Good food, good beer, and good service.
+            Simple is the name of the game, and we’re good at finding it in all the right places,
+            even in your dining experience. We’re a small group from Denver, Colorado who make simple food possible.
+            Come join us and see what simplicity tastes like.
+          </p>
+        </div>
+
+        <div class="col-md-6" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500"
+          data-aos-duration="500">
+          <div class="img-section d-flex flex-wrap justify-content-end gap-3">
+            <img src="img/kabob.jpg" width="250" height="220" alt="Kabob">
+            <img src="img/limes.jpg" width="250" height="220" alt="Limes">
+            <img src="img/radish.jpg" width="250" height="220" alt="Radish">
+            <img src="img/corn.jpg" width="250" height="220" alt="Corn">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========= About Us  End ========= -->
+
+  <!-- =========  Start Pricing ========= -->
+  <section id="pricing" class="description_content">
+    <div class="pricing background_content">
+      <h1><span class="h-underline">Affordable</span> pricing</h1>
+    </div>
+    <div class="text-content container" id="pricing">
+      <div class="container">
+        <div class="row">
+          <div id="w">
+            <ul id="filter-list" class="clearfix">
+              <li class="filter" data-filter="all">All</li>
+              <li class="filter" data-filter="breakfast">Breakfast</li>
+              <li class="filter" data-filter="special">Special</li>
+              <li class="filter" data-filter="desert">Desert</li>
+              <li class="filter" data-filter="dinner">Dinner</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="break-contant">
+              <img src="img/food_icon01.jpg" class="img-fluid" alt="">
+              <h2 class="text-align-center bg-danger p-3 text-light">$20</h2>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="break-contant">
+              <img src="img/food_icon02.jpg" class="img-fluid " alt="">
+              <h2 class="text-align-center bg-danger p-3 text-light">$21</h2>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="break-contant">
+              <img src="img/food_icon03.jpg" class="img-fluid" alt="">
+              <h2 class="text-align-center bg-danger p-3 text-light">$18</h2>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="break-contant">
+              <img src="img/food_icon04.jpg" class="img-fluid" alt="">
+              <h2 class="text-align-center bg-danger p-3 text-light">$30</h2>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="break-contant">
+              <img src="img/food_icon05.jpg" class="img-fluid" alt="">
+              <h2 class="text-align-center bg-danger p-3 text-light">$10</h2>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="break-contant">
+              <img src="img/food_icon06.jpg" class="img-fluid" alt="">
+              <h2 class="text-align-center bg-danger p-3 text-light">$35</h2>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="break-contant">
+              <img src="img/food_icon07.jpg" class="img-fluid" alt="">
+              <h2 class="text-align-center bg-danger p-3 text-light">$25</h2>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="break-contant">
+              <img src="img/food_icon08.jpg" class="img-fluid" alt="">
+              <h2 class="text-align-center bg-danger p-3 text-light">$20</h2>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========= Pricing End ========= -->
+
+
+  <!-- ======= BEER Start  ======= -->
+
+  <section id="beer" class="beer-img">
+    <div class="beer background_content">
+      <h1>Great <span class="h-underline">Place</span> to <span>enjoy</span></h1>
+    </div>
+    <div class="text-content container row">
+      <div class="col-md-5">
+        <div class="beer-img" data-aos="fade-right">
+          <img src="img/beer_spec.jpg" width="100%">
+        </div>
+      </div>
+      <br>
+
+      <div class="col-lg-6">
+        <h1>OUR BEER</h1>
+        <div class="icon"><i class="fa-solid fa-beer-mug-empty"></i></div>
+        <p class="beer-text">Here at Restaurant we’re all about
+          the love of beer. New and bold flavors enter our doors
+          every week, and we can’t help but show them off. While
+          we enjoy the classics, we’re always passionate about
+          discovering something new, so stop by and experience
+          our craft at its best.</p>
+      </div>
+    </div>
+  </section>
+  <!-- ======= BEER End ======= -->
+
+
+  <!-- ============ Our Bread Start ============= -->
+
+  <section id="bread" class="description_content">
+    <div class="bread background_content">
+      <h1>Our Breakfast <span class="h-underline">Menu</span></h1>
+    </div>
+
+    <div class="text-content container">
+      <div class="row align-items-center">
+
+        <div class="col-md-6">
+          <h1 class="" data-aos="zoom-in">OUR BREAD</h1>
+          <div class="icon">
+            <i class="fa-solid fa-bread-slice" data-aos="zoom-in"></i>
+          </div>
+          <p class="desc-text" data-aos="zoom-in">
+            We love the smell of fresh baked bread. Each loaf is handmade at the crack of dawn, using
+            only the simplest of ingredients to bring out smells and flavors that beckon the whole block.
+            Stop by anytime and experience simplicity at its finest.
+          </p>
+        </div>
+
+        <div class="col-md-6 text-center">
+          <img src="img/bread1.jpg" class="img-fluid mb-3" width="260" alt="">
+          <img src="img/bread2.jpg" class="img-fluid" width="260" alt="">
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Our Bread End ============= -->
+
+
+
+  <!-- ========   Featured Start  ======== -->
+  <section id="featured" class="description_content">
+    <div class="featured background_content">
+      <h1>Our Featured Dishes <span class="h-underline">Menu</span></h1>
+    </div>
+
+    <div class="text-content container">
+      <div class="row">
+
+        <div class="col-md-6">
+          <h1>Have a look to our dishes!</h1>
+          <div class="icon">
+            <i class="fas fa-hotdog"></i>
+
+          </div>
+          <p class="desc-text">
+            Each food is handmade at the crack of dawn, using only the simplest of ingredients
+            to bring out smells and flavors that beckon the whole block. Stop by anytime and
+            experience simplicity at its finest.
+          </p>
+        </div>
+
+        <div class="col-md-6">
+          <div class="slider-box p-3 ">
+            <div id="featuredCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000"
+              data-bs-pause="hover">
+
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/slider1.jpg" class="d-block w-100" alt="Dish 1">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/slider2.jpg" class="d-block w-100" alt="Dish 2">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/slider3.JPG" class="d-block w-100" alt="Dish 3">
+                </div>
+              </div>
+
+              <div class="text-center mt-3">
+                <div class="carousel-indicators ">
+                  <button type="button" data-bs-target="#featuredCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#featuredCarousel" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#featuredCarousel" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========   Featured End  ======== -->
+
+  <!-- =========== Reserve Start  =========== -->
+
+  <section id="Reserve" class="description_content">
+    <div class="featured background_content">
+      <h1>Reserve A Table!</h1>
+    </div>
+
+    <div class="row py-5 my-5">
+      <div class="col-lg-8">
+        <div class="d-form px-4">
+          <form class="d-flex flex-column" action="">
+            <div class="row">
+              <div class="col-lg-6 col-6">
+                <div class="d-input">
+                  <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                  <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                  <input type="text" class="form-control" placeholder="State" aria-label="State">
+                  <input type="text" class="form-control" placeholder="Reservation Date" aria-label="Reservation Date">
+                </div>
+              </div>
+              <div class="col-lg-6 col-6">
+                <div class="d-input">
+                  <input type="text" class="form-control" placeholder="Phone" aria-label="Phone">
+                  <input type="text" class="form-control" placeholder="Guest Number" aria-label="Guest Number">
+                  <input type="text" class="form-control" placeholder="Email" aria-label="Email">
+                  <input type="text" class="form-control" placeholder="Subject" aria-label="Subject">
+                </div>
+              </div>
+            </div>
+            <a href="#" class="btn btn-success">Reserve</a>
+          </form>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="right-text">
+          <h5>Hours</h5>
+          <hr>
+          <p>Monday to Friday: 7:30 AM - 11:30 AM</p>
+          <hr>
+          <p>Saturday & Sunday: 8:00 AM - 9:00 AM</p>
+          <hr>
+          <p>Monday to Friday: 12:00 PM - 5:00 PM</p>
+          <hr>
+          <p>Monday to Saturday: 6:00 PM - 1:00 AM</p>
+          <hr>
+          <p>Sunday to Monday: 5:30 PM - 12:00 AM</p>
+          <hr>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- =========== Reserve End  =========== -->
+
+
+  <!-- ========= Social Satrt ========= -->
+  <section id="contact" class="social">
+    <div class="row">
+      <div class="col-md-6 text-center">
+        <h1>FOLLOW</h1>
+        <ul class="so-icon">
+          <li><a href="https://www.instagram.com/_thakur_nit_patel_?igsh=c2Vob3BqNnY5OTc4"><i
+                class="fa-brands fa-instagram"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/nitin-thakur-web"><i class="fa-brands fa-linkedin-in"></i></a></li>
+          <li><a href=""><i class="fa-brands fa-github-alt"></i></a></li>
+          <li><a href=""><i class="fa-solid fa-envelope"></i></a></li>
+        </ul>
+      </div>
+      <div class="col-md-6 text-center">
+        <h1>OR DIAL</h1>
+        <a href="dial">(941) 883-335-6524</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========= Social End ========= -->
+
+
+  <!-- ========= Contact Start ========= -->
+  <div class="section">
+    <div class="map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5682.6774531082365!2d76.04610711172653!3d22.9631109880183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sin!4v1748701581990!5m2!1sen!2sin"
+        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="row py-3">
+      <div class="col-lg">
+        <div class="d-form mx-5 px-4">
+          <form class="d-flex flex-column" action="">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="d-input">
+                  <input type="text" class="form-control" placeholder="Name" aria-label="Name">
+                  <input type="text" class="form-control" placeholder="Email" aria-label="Email">
+                  <input type="text" class="form-control" placeholder="Subject" aria-label="Subject">
+                </div>
+              </div>
+
+              <div class="col-md-6 p-5">
+                <label for="exampleFormControlTextarea1" class="form-label"></label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Meassage" rows="3"
+                  style="height: 170px;"></textarea>
+              </div>
+
+            </div>
+            <a href="#" class="btn btn-success">Send Message</a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- ========= Contact End ========= -->
+
+
+
+  <!-- =============== Footer Start  =============== -->
+  <footer class="footer">
+    <div class="row container">
+      <div class="col-md-4 ">
+        <p class="footer-text text-center">© Restaurant 2025</p>
+      </div>
+
+      <div class="col-md-4">
+        <p class="footer-text text-center">
+          Made with ❤️by <a href="">Nitin Thakur</a>
+        </p>
+      </div>
+
+      <div class="col-md-4">
+        <p class="footer-text text-center">
+          Back to <a href="">Top</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+  <!-- ===============  footer End =============== -->
+
+
+  <button id="scrollToTopBtn" title="Go to top">🔝</button>
+
+  <script src="/js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
