@@ -263,7 +263,7 @@ body {
 }
 
 .bread {
-  background-image: url(/img/breakfast.jpg);
+  background-image: url(img/breakfast.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -481,3 +481,4 @@ body {
   }
 
 }
+
