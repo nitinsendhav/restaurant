@@ -482,3 +482,56 @@ body {
 
 }
 
+
+/* Tablet (≤ 992px) */
+@media (max-width: 992px) {
+  .d-form {
+    margin: 0 20px;
+    padding: 20px;
+  }
+
+  .form-label.p-5 {
+    padding: 0 !important;
+    margin-left: 33px;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+  }
+}
+
+/* Mobile (≤ 768px) */
+@media (max-width: 768px) {
+  .d-input input {
+    margin-bottom: 12px;
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  textarea.form-control {
+    height: 150px !important;
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  .d-form {
+    padding: 15px;
+  }
+}
+
+/* Extra small devices (≤ 576px) */
+@media (max-width: 576px) {
+  .d-form {
+    padding: 10px;
+  }
+
+  .btn {
+    font-size: 14px;
+    padding: 10px 0;
+  }
+}
+
+
+
