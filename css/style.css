@@ -70,7 +70,7 @@ body {
   padding: 0 15px;
   width: 100%;
   height: calc(100vh - 56px);
-  background-image: url(img/steak.jpg);
+  background-image: url(..img/steak.jpg);
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -160,7 +160,7 @@ body {
 }
 
 .pricing.background_content {
-  background: url(img/pricing.jpg) no-repeat center center;
+  background: url(..img/pricing.jpg) no-repeat center center;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -251,7 +251,7 @@ body {
 }
 
 .beer {
-  background-image: url(img/beer.jpg);
+  background-image: url(..img/beer.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -263,7 +263,7 @@ body {
 }
 
 .bread {
-  background-image: url(img/breakfast.jpg);
+  background-image: url(..img/breakfast.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -281,7 +281,7 @@ body {
 }
 
 .featured {
-  background-image: url(img/featured.jpg);
+  background-image: url(..img/featured.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -532,6 +532,7 @@ body {
     padding: 10px 0;
   }
 }
+
 
 
 
